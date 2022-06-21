@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lead {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.underline {
+    border-bottom: .1rem solid #000;
+    width: 13%;
+    margin: 2rem auto;
+
+}
+
+ul li {
+    display: inline-block;
+
+    margin: .5rem;
+    font-size: .8rem;
+    cursor: pointer;
+    color: rgb(15, 15, 15);
+}
+
+.rowlist {
+    margin: 3rem auto;
+}
+
+.affiche {
+    display: block;
+    margin: 0 auto;
+    padding: 2rem;
+    box-shadow: 2px 2px 2px 2px rgb(228, 224, 224);
+    border: .1rem solid rgb(140, 139, 139);
+
+}
+
+ul li:hover {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+.paragraphe {
+    font-size: 1.2rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+    transition: all .3s ease-in-out;
+
+}
+
+.paragraphe::first-line {
+    font-weight: bold;
+}
